@@ -1,0 +1,575 @@
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+/* conatiner image css all handling related to css  */
+.container {
+    background-image: url('./images/netflix\ landing\ image/background-netflix.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+/* background black layer  */
+.blacklayer{
+
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    position: absolute;
+}
+/* netflix logo css  */
+.logo-netflix{
+    width: 230px;
+    height: auto;
+    position: absolute;
+    z-index: 3;
+    top:-3px;
+    left: 10px;
+}
+
+/* button translate  and sigh in */
+
+.top_tow_button #language{
+    background: transparent;
+    border: 2px solid white;
+    position: absolute;
+  
+    padding: 5px 6px 5px 6px ;
+    border-radius: 3px;
+    font-size: 16px;
+    color: white;
+    right: 140px;top: 18px;
+    z-index: 3;
+}
+.top_tow_button #language option{
+  background: black;
+}
+.top_tow_button #sighin{
+    background-color: #e50914;
+ border: none;
+  padding: 7px 10px 7px 10px;
+    position: absolute;
+    top: 18px;
+color: white;
+    font-size: 17px;
+    border-radius: 3px;
+    z-index: 3;
+    right: 40px;
+}
+/* banner story and email form for atrt css */
+.banner_story{
+    width: 45%;
+  
+    height: auto;
+    text-align: center;
+    z-index: 3;
+    color: white;
+    top: 45%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.banner_story h1{
+    font-size: 65px;
+}
+.banner_story h2{
+    font-size: 25px;
+    font-stretch: narrower;
+}
+.banner_story input[type="email"]{
+    padding: 14.7px 10px 12px 10px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.banner_story #getemail{
+
+    font-size: 17px;
+   border-top-right-radius: 3px;
+   border-bottom-right-radius: 3px;
+    background-color: #e50914;
+    border: none;
+    margin-left: -3px;
+     padding: 12.2px 10px 11px 10px;
+     color: white;
+     margin-top: 15px;
+}
+
+.widged_flex{
+    display: flex;
+    flex-direction: row;
+   
+
+
+}
+
+.articles{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    padding-right:5% ;
+    color: white;
+    transform: translate(-50%  -50%);
+}
+.articles h1{
+    font-size: 35px;
+}
+.articles p{
+    font-size: 22px;
+}
+.widged_flex .first{
+    box-sizing: border-box;
+    padding: 5% 5% 5% 5%;
+    background-color: black;
+    border: none;
+    border-top:4px solid grey;
+    border-bottom: 4px solid grey;
+    flex: 50%;
+    position: relative;
+}
+
+.widged_flex .imageWidged{
+    width: 100%;
+   height: auto;
+
+}
+/* accordione part  */
+.ask_frequently{
+    text-align: center;
+background-color: black;
+color:white;
+border: none;
+border-top:4px solid grey;
+border-bottom: 4px solid grey;
+}
+.ask_frequently h1{
+    font-size: 40px;
+}
+
+.ask_frequently .accordion_btn{
+    background-color:#303030;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+     cursor: pointer;
+    margin-bottom: 3px;
+    padding: 14px 14px 14px 14px ;
+border-radius: 3px;
+    border: none;
+    font-size: 26px;
+    color: white;
+}
+
+.ask_frequently .accordion_btn:after{
+    content: '+';
+    font-weight: bold;
+    float: right;
+    margin-right: 26px;
+}
+/* .active:after{
+    content: '\2212';
+    font-weight: bold;
+    float: right;
+    margin-right: 26px;
+} */
+.ask_frequently  .accordion_target{
+    background-color:#303030;
+    width: 40%;
+    border-radius: 3px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    color: white;
+}
+.accordion_target{
+    display: none;
+}
+/* email form  */
+.email_new_account{
+    text-align: center;
+    margin-top: 20px;
+}
+.email_new_account  input[type="email"]{
+    padding: 14.7px 10px 12px 10px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.email_new_account #getemail{
+
+    font-size: 17px;
+   border-top-right-radius: 3px;
+   border-bottom-right-radius: 3px;
+    background-color: #e50914;
+    border: none;
+    margin-left: -3px;
+     padding: 12.2px 10px 11px 10px;
+     color: white;
+     margin-top: 15px;
+}
+
+/* footer part css here start -------------- */
+footer{
+    padding-left: 15%;
+    background-color: black;
+height: auto;
+width: 100%;
+height: auto;
+padding-top: 40px;
+padding-bottom: 20px;
+overflow: auto;
+
+   padding-right: 15%;
+
+}
+footer .footer_part{
+    float: left;
+
+    width: 25%;
+    background-color: black;
+}
+
+footer .footer_part li , #netflix_country {
+    color: #3b3a3a ;
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+    line-height: 30px;
+
+}
+footer .number{
+    color: #3b3a3a ;
+}
+footer .number a{
+    color: #3b3a3a ;
+    text-decoration: none; 
+}
+footer #dev{
+    text-decoration: none;
+    padding-top: 5px;
+
+ color: #3b3a3a ;
+ font-size: 14px;
+ text-align: center;
+}
+footer #dev a{
+    text-decoration: none;
+    padding-top: 5px;
+    color: #3b3a3a ;
+
+}
+/* footer css finished here  */
+/* %%%%%%%%%%%% css of form sighin here %%%%%%%%%%%% */
+.sigh1{
+    position: absolute;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+ top: 10%;
+ padding: 30px 10% 30px 10%;
+
+ overflow: auto;
+ background-color: rgba(0, 0, 0, 0.537);
+ z-index: 9;
+ 
+}
+.sigh1 .title{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 26px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  
+}
+.sigh1 input[type="email"] , input[type="password"]{
+width: 80%;
+    background-color: #d3d0d028;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    padding: 6px 6px 6px 6px;
+    border: none;
+    border-radius: 4px;
+    
+
+}
+.sigh1 input[type="submit"] {
+    background-color: #d51818;
+    color: white;
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 5px;
+
+    margin-right: 10%;
+    margin-bottom: 10px;
+    padding: 6px 6px 6px 6px;
+    border: none;
+    border-radius: 4px;
+}
+
+.sigh1 .other_content{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.sigh1 .other_content #remberme .remeber span{
+font-size: 11px;
+color: #907e7e ;
+
+
+}
+.sigh1 .other_content #need_help a{
+    font-size: 11px;
+    color: #3b3a3a ;
+    float: right;
+    text-decoration: none;
+}
+.sigh1 .other_content  #loginwithFacebook {
+    
+    margin-top: 5px;
+    font-size: 11px;
+    color: white;
+}
+
+.sigh1 .other_content  #loginwithFacebook a{
+    text-decoration: none;
+}
+.sigh1 .other_content #newtouser{
+    margin-top: 5px;
+    font-size: 13px;
+   color: #3b3a3a;
+   font-weight: bold;
+}
+.sigh1 .other_content #newtouser a{
+    text-decoration: none;
+}
+.sigh1 .other_content #protectedbyreCAPTCHA{
+    margin-top: 10px;
+    font-size: 11px;
+    color: #ffffff ;
+    float: right;
+    text-decoration: none;  
+}
+.sigh1 .other_content #protectedbyreCAPTCHA a{
+    text-decoration: none;
+}
+
+
+
+/* ++++++ here is form and it css  ++++++  */
+
+
+
+/* here form css has been finished  */
+/* mobo responisive */
+
+@media screen and (max-width:556px ){
+    .banner_story{
+        width: 80%;
+        
+
+    }
+    /* form */
+    form{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .banner_story h1{
+        font-size: 30px;
+      
+        
+
+    }
+    .banner_story h2{
+        font-size: 18px;
+    }
+   
+    .logo-netflix{
+     width: 130px;
+     z-index: 18;
+     height: auto;
+    }
+    .top_tow_button{
+        top: 15px;
+    }
+    
+    .widged_flex{
+
+  flex-direction: column;
+  flex: 100%;
+    }
+    .widged_flex:nth-child(1){
+        flex-direction: column;
+    }
+    .widged_flex:nth-child(2){
+        flex-direction: column;
+    }
+    .widged_flex:nth-child(3){
+        flex-direction:column-reverse;
+    }
+    /* border css  */
+    .first:nth-child(1){
+
+        border: none;
+    }
+    .first:nth-child(2){
+
+        border: none;
+    }
+    .first:nth-child(3){
+
+        border: none;
+    }
+    .first:nth-child(4){
+
+        border: none;
+    }
+    /* border finished here  */
+    .articles {
+        text-align: center;
+        padding-bottom: 20px;
+        position: unset;
+        top: 10%;
+        left: 15%;
+        padding-right: 5%;
+        color: white;
+        height: 200px;
+        transform: translate(-50% -50%);
+    }
+    .articles h1{
+        font-size: 25px;
+    }
+    .articles p{
+        font-size: 20px;
+    }
+  /* button translate  and sigh in */
+
+.top_tow_button #language{
+    background: transparent;
+    border: 2px solid white;
+    position: absolute;
+  
+    padding: 3px 5px 3px 5px ;
+    border-radius: 3px;
+    font-size: 14px;
+    color: white;
+    right: 110px;top: 18px;
+    z-index: 3;
+}
+.top_tow_button #language option{
+    background:none ;
+  }
+.top_tow_button #language option{
+  background: black;
+}
+.top_tow_button #sighin{
+    background-color: #e50914;
+ border: none;
+ padding: 5px 5px 5px 5px ;
+    position: absolute;
+    top: 18px;
+color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    z-index: 3;
+    right: 40px;
+}
+.top_tow_button #sighin:hover{
+    background-color: #bf1119;
+}
+.banner_story p{
+    margin-bottom: 5px;
+}
+    
+/* accordiono css in mobile  */
+.ask_frequently .accordion_btn{
+    background-color:#303030;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+ 
+    margin-bottom: 3px;
+    padding: 7px 6px 7px 6px ;
+border-radius: 3px;
+    border: none;
+    font-size: 18px;
+    color: white;
+} 
+.ask_frequently  .accordion_target{
+    background-color:#303030;
+    
+    border-radius: 3px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1px;
+    margin-bottom: 3px;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    color: white;
+}
+.ask_frequently  h1{
+    font-size: 30px;
+}
+/* it is top  */
+.email_new_account p{
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* footer */
+footer{
+    padding-left: 10%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 100%;
+  margin: 0;
+
+}
+footer .footer_part{
+    float: left;
+    width: 50%;
+   
+}
+footer .footer_part  li {
+    color: #3b3a3a ;
+    text-decoration: none;
+}
+/* %%%%%%%%%%%% css of form sighin here %%%%%%%%%%%% */
+.sigh1{
+    
+    position: absolute;
+    width: 100%;
+
+    margin-left: 0%;
+    margin-right: 0%;
+
+ top: 0px;
+ padding: 60px 10% 30px 10%;
+
+ overflow: auto;
+ background-color: rgba(0, 0, 0, 0.435);
+ z-index: 9;
+ bottom: 0px;
+
+ 
+}
+.sigh1 .title{
+margin-top: 60px;
+}
+}
